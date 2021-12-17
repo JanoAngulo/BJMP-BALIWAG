@@ -1,0 +1,287 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	margin: 0;
+}
+
+.Tabs {
+	padding-bottom: 2vw;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+}
+
+@font-face {
+	font-family: Gilroy;
+	src: url("gilroy/Gilroy-Regular.ttf");
+}
+
+@font-face {
+	font-family: Product Sans;
+	src: url("product sans/Product\ Sans\ Regular.ttf");
+}
+
+
+@font-face {
+	font-family: Gilroy;
+	src: url("gilroy-regular-webfont.woff2") format("woff2"),
+		url("gilroy-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Product Sans;
+	src: url("product-sans-regular-webfont.woff2") format("woff2"),
+		url("product-sans-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*--------------Login-------------*/
+
+.tab-div {
+	margin: 0 10% 0 10%;
+}
+
+.tab-border {
+	border-bottom: 5px solid #80c6ff;
+	border-left: 5px solid #80c6ff;
+	border-right: 5px solid #80c6ff;
+	border-radius: 0px 0px 15px 15px;
+	width: auto;
+	height: auto;
+	float: right;
+}
+
+.welcome-header {
+	color: rgb(29, 70, 158);
+	line-height: 1.2;
+	font-family: Gilroy;
+	font-size: 5vmin;
+	font-weight: 600;
+	padding-top: 5%;
+}
+
+.welcome-text {
+	color: rgb(25, 58, 129);
+	font-weight: 500;
+	font-family: Gilroy;
+	line-height: 1.2;
+	font-size: 3vmin;
+}
+
+.form-check-section {
+	font-family: Product Sans;
+	font-size: 0.9vmax;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+/*-------------Input Design--------------*/
+
+.input-section {
+	border-radius: 12px;
+	width: auto;
+	height: 100%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.input-space {
+	padding-top: 10px;
+	font-size: 2vh;
+}
+
+.space {
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+
+/*-------------Remember-Me--------------*/
+
+.form-check-label {
+	font-size: 1.8vh;
+}
+
+/*-------------Forgot-Password--------------*/
+.ForgotPass {
+	font-size: 1.8vh;
+	padding-left: 9px;
+}
+
+/*-------------Textbox--------------*/
+
+.input-textbox {
+	font-size: 2vh;
+	font-family: Product Sans;
+	width: 100%;
+	padding: 20px;
+	border: none;
+	box-sizing: border-box;
+	transition-duration: 100ms;
+	background-color: rgb(247, 247, 247);
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.input-textbox:focus,
+.input-textbox:hover {
+	background-color: rgb(236, 236, 236);
+	outline: none;
+}
+
+.input-top {
+	border-radius: 1.5vh 0px 0px 1.5vh;
+}
+
+.input-single {
+	border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.input-bottom {
+	border-radius: 0px 1.5vh 1.5vh 0px;
+}
+
+/*------------Buttons--------------*/
+
+.button {
+	font-family: Gilroy;
+	font-size: 2vh;
+	padding: 2vmin;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 25px;
+	transition-duration: 100ms;
+	font-weight: 600;
+}
+
+.displayScreen-row:after {
+	clear: left;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	content: " ";
+	padding-bottom: 30px;
+}
+
+/*------------Login Button--------------*/
+
+.button-login {
+	background-color: rgb(0, 155, 202);
+	color: white;
+}
+
+.button-login:hover {
+	background-color: rgb(0, 128, 167);
+	color: white;
+}
+
+.button-login:active {
+	background-color: rgb(0, 99, 129);
+	color: white;
+	outline: none;
+}
+
+/*------------Create Account Button--------------*/
+
+.button-create {
+	background-color: rgb(226, 226, 226);
+}
+
+.button-create:hover {
+	background-color: rgb(204, 204, 204);
+}
+
+.button-create:active {
+	background-color: rgb(204, 204, 204);
+	outline: none;
+}
+
+/*-------------Images----------------*/
+
+.wave-image-top {
+	width: 100%;
+	/* to stop the flicker of the page */
+	padding-bottom: 0.5px;
+}
+
+.wave-image-bottom {
+	width: 100%;
+}
+
+.logo-image {
+	width: 32vw;
+	height: auto;
+	padding-bottom: 2vw;
+}
+
+/*-----------Textbox Images---------------*/
+
+.textbox-icon {
+	background-size: 1.25vmax;
+	background-repeat: no-repeat;
+	background-position: 15px;
+	text-indent: 30px;
+}
+
+.textbox-icon-email {
+	background-image: url("IMG/Login/Email.png");
+}
+
+.textbox-icon-pass {
+	background-image: url("IMG/Login/lock.png");
+}
+
+/*-------------Tabs------------*/
+
+.nav-item {
+	width: 50%;
+	border-radius: 0px;
+}
+
+.button-tab {
+	font-family: Gilroy;
+	width: 50%;
+	transition-duration: 100ms;
+	font-weight: 600;
+}
+
+.nav-btn .nav-link {
+	font-family: Product Sans;
+	font-weight: bold;
+	padding-top: 8px;
+	text-align: center;
+	background: #80c6ff;
+	color: #fff;
+	height: auto;
+}
+.nav-btn .nav-link.active {
+	background: #fff;
+	color: rgb(61, 64, 66);
+}
+
+.nav-btn-left {
+	border-radius: 15px 0px 0px 0px;
+	border-top: 5px solid #80c6ff;
+	border-left: 5px solid #80c6ff;
+}
+
+.nav-btn-right {
+	border-radius: 0px 15px 0px 0px;
+	border-top: 5px solid #80c6ff;
+	border-right: 5px solid #80c6ff;
+}

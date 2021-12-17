@@ -1,0 +1,468 @@
+@font-face {
+	font-family: Product Sans;
+	src: url(Fonts/Product-Sans/Product-Sans-Regular.ttf);
+}
+
+@font-face {
+	font-family: Gilroy;
+	src: url(Fonts/Gilroy/Gilroy-Regular.ttf);
+}
+
+@font-face {
+	font-family: Bebas Neue;
+	src: url(Font/Bebas-Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+	font-family: Bebas Neue;
+	src: url("bebasneue-regular-webfont.woff2") format("woff2"),
+		url("bebasneue-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Gilroy;
+	src: url("gilroy-regular-webfont.woff2") format("woff2"),
+		url("gilroy-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Product Sans;
+	src: url("product-sans-regular-webfont.woff2") format("woff2"),
+		url("product-sans-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url("IMG/Announcement-Banner.png") ;
+	background-size: 100%;
+	background-color: white;
+}
+
+
+.LogoTextHolder {
+	width: 100%;
+}
+
+.LogoBox {
+	padding-left: 25px;
+}
+
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar {
+	font-size: 20px;
+	background-color: #006aff;
+	padding: 0 !important;
+}
+
+.nav-item {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.nav-item a {
+	font-family: Product Sans;
+	color: white !important;
+	float: right;
+	font-size: 1vmax;
+}
+
+.nav-item input[type="text"] {
+	padding: 6px;
+	padding-right: 0;
+	font-size: 2vmin;
+	border: none;
+	outline: none !important;
+	border-top-right-radius: 0%;
+	border-bottom-right-radius: 0%;
+}
+
+.nav-item button {
+	padding: 6px 10px;
+	margin-top: 8px;
+	background: #6bc4ff;
+	font-size: 2vmin;
+	cursor: pointer;
+	color: #006aff;
+	outline: none !important;
+	border: none !important;
+}
+
+.nav-item button:hover {
+	background: #6bc4ff;
+	color: white;
+	outline: none !important;
+	border: none !important;
+}
+
+.fa-bars {
+	color: white;
+	font-size: 5vmin !important;
+	align-content: center;
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 20px;
+}
+
+.navbar-toggler {
+	outline: none !important;
+	border: none !important;
+	margin-left: auto;
+	margin-right: 3%;
+	height: auto;
+	width: auto;
+}
+
+.LogoBox {
+	max-width: 12%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.Logo {
+	display: block;
+	width: 100%;
+	height: auto;
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navbar-brand img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.LogoTextBox {
+	margin-top: 20px;
+	padding-left: 5px;
+}
+
+.Logo_Text {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-size: 2vmin;
+	color: white !important;
+	font-family: Product Sans;
+}
+
+.hrline {
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	height: 2px;
+	width: 100%;
+	border-width: 0;
+	background-color: white;
+}
+
+.Logo_Text2 {
+	padding: 0;
+	margin: 0;
+	color: white !important;
+	font-size: 2.5vmin;
+	font-family: Product Sans;
+}
+
+.nav-link {
+	color: #fff;
+	text-decoration: none;
+	word-spacing: 0.15em;
+	display: inline-block;
+	padding: 15px 20px;
+	position: relative;
+}
+
+.nav-link.hoverable {
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+}
+
+.nav-link:after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: white;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+.nav-link:hover:after {
+	width: 100%;
+	left: 0;
+}
+
+.searchBox {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background-color: white;
+	color: #232f3a;
+}
+
+.searchBtn {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background-color: #006aff;
+}
+
+/*-----------------Sections-----------------*/
+.header-box {
+	margin-top: 8vw;
+	margin-bottom: 10vw;
+	height: 50px;
+	width: 100%;
+}
+
+.Header {
+	background-color: #0153cec7;
+	width: 100%;
+}
+
+.section-header {
+	width: auto;
+	color: #ffffff;
+	text-align: center;
+	font-size: 8vmin;
+	font-weight: bold;
+	padding: 5px;
+	font-family: Product Sans;
+}
+
+/*---------------------Announcement-Section-----------------*/
+.Containerbox{
+	background-color: white;
+}
+
+.AnnouncementBG {
+	background-color: #ffffff;
+}
+
+.announcement-box {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+}
+
+.Vector3 {
+	width: 100%;
+	margin-top: 5vw;
+	padding: 0;
+}
+
+.announcement-header-box {
+	background-color: #006afc;
+}
+
+.announcement-header {
+	color: #ffffff;
+	width: auto;
+	text-align: center;
+	font-size: 8vmin;
+	font-weight: bold;
+	padding-top: 0px;
+	font-family: Product Sans;
+}
+
+.border-announcement {
+	width: 100%;
+	height: 65vw;
+	padding: 5px;
+	padding-bottom: 50px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	box-sizing: border-box;
+}
+
+.announcement-content {
+	width: 90%;
+	height: 20vw;
+	margin: 10px auto 10px auto;
+	border: 5px solid;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(to right, #004b89, #80c6ff, #004b89);
+}
+
+.announcement-title {
+	padding-top: 5px;
+	font-size: 1.7vw;
+	font-weight: bold;
+}
+
+.announcement-paragraph {
+	font-size: 1.2vw;
+	border-radius: 15px;
+	text-align: justify;
+	padding-left: 1vw;
+	padding-right: 15px;
+	color: #006afc;
+	font-family: Product Sans;
+	height: 19vw;
+	background-color: white;
+	border-color: #006afc;
+	overflow-y: auto;
+}
+.announcement-video {
+	padding: 5px;
+	float: left;
+	border-radius: 13px;
+	width: 33.33%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.announcement-image {
+	padding: 5px;
+	float: left;
+	border-radius: 13px;
+	width: 33.33%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/*----------------------------Contact-Us-------------------------*/
+
+.Contact-Us {
+	padding-top: 25px;
+	background-color: white;
+}
+
+.connect {
+	font-family: Product Sans;
+	height: auto;
+}
+
+.connect h1 {
+	font-size: 4vmin;
+	font-weight: bold;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+}
+
+.connect p {
+	font-size: 2vmin;
+}
+
+.namebox {
+	border-radius: 10px;
+	border: 3px solid #2a4c7a;
+	font-size: 2vmin;
+	padding: 1vh;
+	width: 100%;
+}
+
+.emailbox {
+	border-radius: 10px;
+	border: 3px solid #2a4c7a;
+	font-size: 2vmin;
+	padding: 1vh;
+	width: 100%;
+}
+
+.contactbox {
+	border-radius: 10px;
+	border: 3px solid #2a4c7a;
+	font-size: 2vmin;
+	padding: 1vh;
+	width: 100%;
+}
+
+.textbox {
+	border-radius: 10px;
+	border: 3px solid #2a4c7a;
+	padding-top: 1%;
+	padding-bottom: 8%;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 2vmin;
+	width: 100%;
+	resize: none;
+	margin-bottom: 10px;
+}
+
+.sendBtn {
+	border: none;
+	background-color: #2a4c7a;
+	border-radius: 10px;
+	font-size: 2.5vmin;
+	padding: 3%;
+	margin-bottom: 3%;
+	width: 100%;
+	color: white;
+}
+
+.Vector2 {
+	padding-top: 5px;
+	height: 100%;
+	width: inherit;
+}
+
+/*----------------------------Footer-Section-------------------------*/
+.Links {
+	font-size: 2vmin;
+	margin-bottom: 5%;
+}
+
+#footer {
+	padding-top: 3%;
+	background-color: #142c5c;
+	color: white;
+	font-family: Product Sans;
+}
+
+#footer2 {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-color: #142c5c;
+	color: white;
+	font-family: Product Sans;
+}
+
+.Footerline {
+	margin: 2%;
+	border-top: 3px solid white;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.copyright {
+	font-size: 2vmin;
+	background-color: #142c5c;
+	margin: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
